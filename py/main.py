@@ -1,12 +1,12 @@
-#V0.9 (ADAPTAR EL CODIGO PARA QUE LE DE IGUAL LAS TABULACIONES , COMAS , PUNTOS Y COMAS + OPTIMIZACION)
+#V1.0
 from tkinter import *
 from tkinter import filedialog
 from tkinter import scrolledtext
 import os
 import random
-#datos = filedialog.askopenfilename()
+fileA = filedialog.askopenfilename()
 try:
-    with open("data.txt" , encoding='utf-8') as file:
+    with open(fileA , encoding='utf-8') as file:
         lines = file.readlines()
 except FileNotFoundError:
     print("The file doesnt exist")
@@ -43,7 +43,7 @@ def READTEAMS():
             teamsL[i].append(DIF)
         return teamsL
     except IndexError:
-        print("REVISA QUE EL ARCHIVO ESTE EN EL FORMATO CORRECTO")
+        print("THE FILE COULD BE INCORRECT")
 
 def READPITCHERS():
     try:
@@ -67,7 +67,7 @@ def READPITCHERS():
             i.append(PBB)
         return pitchersCL
     except IndexError:
-        print("REVISA QUE EL ARCHIVO ESTE EN EL FOMATO CORRECTO")
+        print("THE FILE COULD BE INCORRECT")
 
 def LIDSSPI(l):
     fileE = open('leaders/Pitching_Leaders.txt' , 'w')
@@ -116,8 +116,8 @@ def LIDSSPI(l):
 def READHITTERS():
     try:
         bats = []
-        lineasB = lines[lines.index('&&&&&\n') +1: lines.index('&&&&-\n')]
-        for i in lineasB:
+        linesB = lines[lines.index('&&&&&\n') +1: lines.index('&&&&-\n')]
+        for i in linesB:
             i = i.replace("," , " ").replace("    ", " ").replace(";" , " ")
             i = i.split()
             bats.append(i)
@@ -143,11 +143,10 @@ def READHITTERS():
             i.append(SLG)
         return bats
     except IndexError:
-        print("REVISA QUE EL ARCHIVO ESTE EN EL FOMATO CORRECTO")
+        print("THE FILE COULD BE INCORRECT")
 
 def LIDSHITT(l):
     fileE = open('leaders/Batting_Leaders.txt' , 'w')
-    equipos = READTEAMS()
     fileE.write("Batting  Leaders: \n\n")
     fileE.write("TOP 3 HITTERS BY HOME RUNS: \n")
     topHR = sorted(l , key=lambda x: float(x[-5]) ,reverse=True)
@@ -155,8 +154,8 @@ def LIDSHITT(l):
         add = ""
         playerstat = ""
         IDHR = E[0]
-        for i in range(0, len(equipos)):
-            if IDHR == equipos[i][0]:
+        for i in range(0, len(teams)):
+            if IDHR == teams[i][0]:
                 for j in range(1 , len(teams[i]) - 5):
                     add += f"{str(teams[i][j])} "
                 playerstat += f"{str(E[2])} " + f"{str(E[3])}" + f" : {str(E[-5])}"
@@ -169,8 +168,8 @@ def LIDSHITT(l):
         add = ""
         playerstat = ""
         IDH = W[0]
-        for w in range(0, len(equipos)):
-            if IDH == equipos[w][0]:
+        for w in range(0, len(teams)):
+            if IDH == teams[w][0]:
                 for j in range(1 , len(teams[i]) - 5):
                     add += f"{str(teams[w][j])} "
                 playerstat += f"{str(W[2])} " + f"{str(W[3])}" + f" : {str(W[-12])}"
@@ -183,8 +182,8 @@ def LIDSHITT(l):
         add = ""
         playerstat = ""
         IDC = C[0]
-        for c in range(0, len(equipos)):
-            if IDC == equipos[c][0]:
+        for c in range(0, len(teams)):
+            if IDC == teams[c][0]:
                 for j in range(1 , len(teams[c]) - 5):
                     add += f"{str(teams[c][j])} "
                 playerstat += f"{str(C[2])} " + f"{str(C[3])}" + f" : {str(C[-4])}"
@@ -195,8 +194,8 @@ def LIDSHITT(l):
 def READDEFENSES():
     try:
         defe = []
-        lineasD = lines[lines.index('!!!!!\n')+1 :lines.index('!!!!-\n')]
-        for i in lineasD:
+        linesD = lines[lines.index('!!!!!\n')+1 :lines.index('!!!!-\n')]
+        for i in linesD:
             i = i.replace("," , " ").replace(":", " ").replace(";" , " ")
             i = i.split()
             defe.append(i)
@@ -214,7 +213,7 @@ def READDEFENSES():
             i.append(DPJ)
         return defe
     except IndexError:
-        print("REVISA QUE EL ARCHIVO ESTE EN EL FOMATO CORRECTO")
+        print("THE FILE COULD BE INCORRECT")
 
 def LIDSDEF(l):
     fileE = open('leaders/Defensive_Leaders.txt' , 'w')

@@ -1,0 +1,50 @@
+@@@@@
+1 Azucareros de Cabudare 33 22 11
+2 Cangrejos de Lechería 31 11 20
+3 Cargueros de Pto. Cabello 33 15 18
+4 Devotos de Guatamare 32 16 16
+5 Monos de Caricuao 33 21 12
+6 Obreros de Turmero 33 14 19
+7 Queseros de Machiques 32 15 17
+8 Tambores de La Sabana 33 16 17
+@@@@@-
+*****
+1 33 Luis Ramirez P 234 99 115 180 45
+1 78 Carlos Ruiz P 192 71 200 79.2 50
+1 76 Blake Snell P 230 95 113 190 40
+8 98 Gerrit Cole P 222 48 157 209 61
+4 70 Sonny Gray P 183 55 156 184 57
+3 89 Kyle Bradish P 168 44 132 178.2 53
+5 98 Kodai Senga P 202 77 126 166.1 55
+7 9 Justin Steele P 176 36 167 173.1 59
+6 65 Kevin Gausman P 237 55 163 185 65
+2 45 Jordan Montgomery P 166 48 177 188.2 67
+3 34 Justin Verlander P 144 45 139 162.1 58
+2 23 Logan Webb P 194 31 201 216 78.0
+****-
+&&&&&
+3 25 José Reyes SS 151 91 3 3 497 26 8 44 95
+8 11 Miguel Orta 1B 140 98 12 12 486 37 19 35 88
+1 89 Shohei Ohtani DH 151 91 3 3 497 26 8 44 95
+2 53 Corey Seager SS 156 49 4 6 477 42 0 33 96
+3 76 Ronald Acuña RF 217 80 9 3 643 35 4 41 106
+3 90 Matt Olson 1B 172 104 4 4 608 27 3 54 139
+4 86 Mookie Bets RF 179 96 8 5 584 40 1 39 107
+4 43 Freddie Freeman 1B 211 72 16 5 637 59 2 29 102
+5 23 Yandy Díaz 1B 173 65 8 2 525 35 0 22 78
+6 43 Juan Soto LF 156 132 2 5 568 32 1 35 109
+3 12 Marcell Ozuna DH 145 57 3 2 530 29 1 40 100
+4 45 Bryce Harper DH 134 80 5 4 457 29 1 21 72
+&&&&-
+!!!!!
+3 23 Matt Olson 1B 162 1194 96 8 124
+4 45 Freddie Freeman 1B 161 1131 128 1 126
+3 65 Christian Walker 1B 152 1075 77 2 106
+2 74 Paul Goldschmidt 1B 133 1048 115 2 122 
+2 84 Dominic Smith 1B 151 1045 143 7 134 
+1 72 Pete Alonso 1B 144 983 122 6 119 
+5 61 LaMonte Wade 1B 116 868    70 10 84 
+6 98 Jake Cronenworth 1B 106 759 121 2 94 
+7 89 Yuli Gurriel 1B 93 569 32 2 64
+8 31 Rowdy Tellez 1B 76 468 49 2 46
+!!!!-
