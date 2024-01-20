@@ -1,0 +1,16 @@
+Batting  Leaders: 
+
+TOP 3 HITTERS BY HOME RUNS: 
+Cargueros de Pto. Cabello :  Matt Olson : 54
+Cargueros de Pto. Cabello :  José Reyes : 44
+Azucareros de Cabudare :  Shohei Ohtani : 44
+
+TOP 3 HITTERS BY HITS:
+Cargueros de Pto. :  Ronald Acuña : 217
+Devotos de Guatamare :  Freddie Freeman : 211
+Devotos de Guatamare :  Mookie Bets : 179
+
+TOP 3 HITS BY RBI:
+Cargueros de Pto. Cabello :  Matt Olson : 139
+Obreros de Turmero :  Juan Soto : 109
+Devotos de Guatamare :  Mookie Bets : 107

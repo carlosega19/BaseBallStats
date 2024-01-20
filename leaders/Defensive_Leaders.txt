@@ -1,0 +1,16 @@
+Defense  Leaders: 
+
+TOP 3 DEFENSES BY PRECISION: 
+Devotos de Guatamare  => Freddie Freeman : 1
+Cargueros de Pto. Cabello  => Christian Walker : 2
+Cangrejos de Lechería  => Paul Goldschmidt : 2
+
+TOP 3 DEFENSES BY F%: 
+Devotos de Guatamare  : Freddie Freeman : 0.999
+Cargueros de Pto. Cabello  : Christian Walker : 0.998
+Cangrejos de Lechería  : Paul Goldschmidt : 0.998
+
+TOP 3 DEFENSES BY DP/J: 
+Cangrejos de Lechería  : Paul Goldschmidt : 0.917
+Cangrejos de Lechería  : Dominic Smith : 0.887
+Obreros de Turmero  : Jake Cronenworth : 0.887

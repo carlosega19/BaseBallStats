@@ -1,0 +1,16 @@
+Pitching Leaders: 
+
+TOP 3 PITCHERS BY EFFECTIVENESS
+Azucareros de Cabudare  => Blake Snell : 1.89
+Azucareros de Cabudare  => Luis Ramirez : 2.25
+Tambores de La Sabana  => Gerrit Cole : 2.63
+
+TOP 3 PITCHER BY WHIP
+Tambores de La Sabana  => Gerrit Cole : 0.98
+Cargueros de Pto. Cabello  => Kyle Bradish : 0.99
+Cangrejos de Lechería  => Logan Webb : 1.07
+
+TOP 3 PITCHERS BY P/BB
+Cangrejos de Lechería  => Logan Webb : 6.26
+Queseros de Machiques  => Justin Steele : 4.89
+Tambores de La Sabana  => Gerrit Cole : 4.62
