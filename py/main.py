@@ -646,4 +646,9 @@ screen = Frame(app, width=500, heigh=350, bg="gray")
 screen.pack_propagate(False)
 screen.place(x=250 , y=100)
 
+def saludar():
+    print("Hola pao")
+
+saludar()
+
 app.mainloop()
